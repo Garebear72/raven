@@ -1,3 +1,39 @@
 body {
+    background-color: #212529;
+}
+
+.special-div {
+    background-color: rgba(239, 17, 17, 0.5);
+    border-radius: 15px;
+}
+
+.numpad {
+    height: 300px;
+    width: 150px;
+    border-radius: 1rem;
+}
+.numpad1, .numpad3, .numpad5, .numpad7, .numpad9 {
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid black;
+    margin: 4px;
+    background-color: white;
+    border-radius: 1rem;
+    transition: background-color 0.5s, transform 0.5s;
+}
+.numpad2, .numpad4, .numpad6, .numpad8, .numpad0 {
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    margin: 4px;
+    border-radius: 1rem;
+    transition: background-color 0.5s, transform 0.5s;
+}
+
+.numpad1:hover, .numpad3:hover, .numpad5:hover, .numpad7:hover, .numpad9:hover, .numpad2:hover, .numpad4:hover, .numpad6:hover, .numpad8:hover, .numpad0:hover {
     background-color: red;
+    transform: scale(1.1);
 }

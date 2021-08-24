@@ -1,29 +1,54 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+	<meta charset="utf-8"/>
+	<meta content="width=device-width, initial-scale=1" name="viewport"/>
+	<link href="assets/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+	<link href="assets/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+	<link href="assets/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+	<script src="https://kit.fontawesome.com/dbfcee98d6.js" crossorigin="anonymous"></script>
 	<!-- Bootstrap CSS -->
-	<link href="css/bootstrap.css" rel="stylesheet">
-	<link href="css/personal/master.css" rel="stylesheet">
-
-	<title>Hello, world!</title>
+	<link href="css/bootstrap.css" rel="stylesheet"/>
+	<link href="css/personal/master.css" rel="stylesheet"/>
+	<title>Raven</title>
 </head>
 <body>
-	<div class="container">
-		<h1>Hello, world!</h1>
+<!-- Navbar Starts Here -->
+<nav class="navbar navbar-light bg-dark">
+	<div class="container-fluid justify-content-start">
+		<a class="navbar-brand d-flex align-items-center text-light" href="#">
+			<img alt="raven logo" class="d-inline-block align-text-top" height="32" src="assets/favicon-32x32.png"
+			     width="32"/>
+			<span style="margin-left: 5px;">Did you know, on a scale of 1 - 10, ur GAY LMAO</span>
+		</a>
 	</div>
-<!-- Optional JavaScript; choose one of the two! -->
+</nav>
+<!-- Navbar Ends Here -->
 
-<!-- Option 1: Bootstrap Bundle with Popper -->
-<script src="js/bootstrap.bundle.js"></script>
-
-<!-- Option 2: Separate Popper and Bootstrap JS -->
-<!--
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
--->
+<!-- Main Container Starts Here -->
+<div class="container special-div mt-4 p-4 text-center">
+	<h2>Hi there <i class="far fa-smile-wink"></i></h2>
+	<h5>Put in ur cute little passcode to see what the fuck is up.</h5>
+	<div class="mt-3 container-fluid d-flex justify-content-center">
+		<div class="numpad d-flex flex-wrap flex-column">
+			<div class="numpad1 d-flex justify-content-center align-items-center flex-fill">1</div>
+			<div class="numpad3 d-flex justify-content-center align-items-center flex-fill">3</div>
+			<div class="numpad5 d-flex justify-content-center align-items-center flex-fill">5</div>
+			<div class="numpad7 d-flex justify-content-center align-items-center flex-fill">7</div>
+			<div class="numpad9 d-flex justify-content-center align-items-center flex-fill">9</div>
+		</div>
+		<div class="numpad d-flex flex-wrap flex-column">
+			<div class="numpad2 d-flex justify-content-center align-items-center flex-fill">2</div>
+			<div class="numpad4 d-flex justify-content-center align-items-center flex-fill">4</div>
+			<div class="numpad6 d-flex justify-content-center align-items-center flex-fill">6</div>
+			<div class="numpad8 d-flex justify-content-center align-items-center flex-fill">8</div>
+			<div class="numpad0 d-flex justify-content-center align-items-center flex-fill">0</div>
+		</div>
+	</div>
+</div>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/personal/numpad.js"></script>
 </body>
 </html>
